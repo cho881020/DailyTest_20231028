@@ -7,6 +7,10 @@ android {
     namespace = "kr.ac.wku.dailytest_20231028"
     compileSdk = 34
 
+    dataBinding {
+        enable=true
+    }
+
     defaultConfig {
         applicationId = "kr.ac.wku.dailytest_20231028"
         minSdk = 24
