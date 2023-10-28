@@ -13,6 +13,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
+        binding.btnLogin.setOnClickListener {
+
+            val inputEmail = binding.edtEmail.text.toString()
+            val inputPassword = binding.edtPassword.text.toString()
+
+
+
+        }
 
     }
 }
